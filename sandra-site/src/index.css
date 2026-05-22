@@ -225,3 +225,45 @@ footer {
 .btn-enviar:hover{
   transform: scale(1.05);
 }
+
+/* Botões do card produto */
+.card-botoes {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 0 15px;
+  margin-top: 10px;
+}
+
+.btn-carrinho {
+  padding: 9px 16px;
+  border: 2px solid #ff758c;
+  background: white;
+  color: #ff758c;
+  border-radius: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+  font-size: 13px;
+}
+
+.btn-carrinho:hover {
+  background: #ff758c;
+  color: white;
+}
+
+.btn-comprar {
+  padding: 9px 16px;
+  border: none;
+  background: #ff758c;
+  color: white;
+  border-radius: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+  font-size: 13px;
+}
+
+.btn-comprar:hover {
+  background: #ff3366;
+}

@@ -1,0 +1,96 @@
+/* Card destaque café da manhã */
+.cesta-destaque {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  background: white;
+  border-radius: 20px;
+  box-shadow: 0 8px 25px rgba(255, 117, 140, 0.2);
+  padding: 25px;
+  margin-bottom: 40px;
+  text-align: left;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.cesta-destaque-img-wrap {
+  flex-shrink: 0;
+}
+
+.cesta-destaque-img {
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 15px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+.cesta-destaque-info h3 {
+  margin: 0 0 10px;
+  font-size: 22px;
+  color: #ff758c;
+}
+
+.cesta-destaque-info p {
+  margin: 0 0 16px;
+  color: #666;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.cesta-destaque-botoes {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.btn-carrinho-cesta {
+  border: none;
+  background: #ff758c;
+  color: white;
+  padding: 10px 18px;
+  border-radius: 20px;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn-carrinho-cesta:hover {
+  transform: scale(1.05);
+  background: #ff3366;
+}
+
+.btn-whatsapp-cesta {
+  border: none;
+  background: #25d366;
+  color: white;
+  padding: 10px 18px;
+  border-radius: 20px;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn-whatsapp-cesta:hover {
+  transform: scale(1.05);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .cesta-destaque {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .cesta-destaque-img {
+    width: 100%;
+    height: 200px;
+  }
+
+  .cesta-destaque-botoes {
+    justify-content: center;
+  }
+}
