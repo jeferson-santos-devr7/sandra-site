@@ -182,3 +182,6 @@
     border-right-color: var(--border);
   }
 }
+.marca-parceira-content img {
+  width: 50px;
+}
