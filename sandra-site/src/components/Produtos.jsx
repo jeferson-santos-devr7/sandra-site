@@ -7,7 +7,7 @@ function Produtos() {
       nome: "Cesta Café da Manhã",
       imagem: "/img/cafe.jpeg"
     },
-    
+
     {
       nome: "Chinelo Elegante Preto",
       imagem: "/img/floral.jpeg"
