@@ -1,4 +1,4 @@
-# 🎀 Sandra — Chinelos & Cestas Personalizadas
+# 🎀 Sandra - Chinelos & Cestas Personalizadas
 
 Site de vendas desenvolvido em **React + Vite**, com foco em experiência mobile-first e integração direta com WhatsApp.
 
