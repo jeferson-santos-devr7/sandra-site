@@ -8,11 +8,11 @@ Site de vendas desenvolvido em **React + Vite**, com foco em experiência mobile
 
 ✨ Funcionalidades
 
-- 🛒 **Carrinho de compras** — adicione produtos, ajuste quantidades e envie o pedido completo pelo WhatsApp
-- 🎠 **Carrossel de produtos** — navegue pelos produtos com setas, com animação suave
-- 🎁 **Monte sua cesta** — escolha os itens e envie uma mensagem personalizada para a Sandra
-- 💬 **Botão flutuante do WhatsApp** — acesso rápido em qualquer parte do site
-- 📱 **Totalmente responsivo** — funciona bem em celular e desktop
+- 🛒 **Carrinho de compras**  adicione produtos, ajuste quantidades e envie o pedido completo pelo WhatsApp
+- 🎠 **Carrossel de produtos**  navegue pelos produtos com setas, com animação suave
+- 🎁 **Monte sua cesta**  escolha os itens e envie uma mensagem personalizada para a Sandra
+- 💬 **Botão flutuante do WhatsApp**  acesso rápido em qualquer parte do site
+- 📱 **Totalmente responsivo**  funciona bem em celular e desktop
 
 
 
@@ -64,6 +64,6 @@ npm run build
 
  📲 Contato
 
-Desenvolvido com 💖 para a Sandra — Chinelos & Cestas Personalizadas.
+Desenvolvido com 💖 para a Sandra  Chinelos & Cestas Personalizadas.
 
 git clone https://github.com/jeferson-santos-devr7/sandra-site.git
