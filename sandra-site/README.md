@@ -1,35 +1,69 @@
-🩴 Sandra Site - Chinelos & Artesanatos
+# 🎀 Sandra — Chinelos & Cestas Personalizadas
 
-Projeto desenvolvido em React + Vite para divulgação de produtos personalizados, incluindo chinelos decorados e cestas especiais.
+Site de vendas desenvolvido em **React + Vite**, com foco em experiência mobile-first e integração direta com WhatsApp.
 
-🚀 Tecnologias utilizadas
+🔗 **[Acesse o site](https://sandra-site-two.vercel.app/)**
 
-- React.js
-- Vite
-- JavaScript
-- CSS3
-- HTML5
-- Git & GitHub
-- Vercel
 
-📱 Funcionalidades
 
-- Catálogo de produtos
-- Cards dinâmicos
-- Integração com WhatsApp
-- Layout responsivo
-- Botão flutuante do WhatsApp
-- Divulgação de Instagram
+✨ Funcionalidades
 
-🌐 Projeto Online
+- 🛒 **Carrinho de compras** — adicione produtos, ajuste quantidades e envie o pedido completo pelo WhatsApp
+- 🎠 **Carrossel de produtos** — navegue pelos produtos com setas, com animação suave
+- 🎁 **Monte sua cesta** — escolha os itens e envie uma mensagem personalizada para a Sandra
+- 💬 **Botão flutuante do WhatsApp** — acesso rápido em qualquer parte do site
+- 📱 **Totalmente responsivo** — funciona bem em celular e desktop
 
-Acesse o site publicado:
 
-https://sandra-site-two.vercel.app
 
-📂 Como executar o projeto
+🛠️ Tecnologias
 
-Clone o repositório:
+- [React](https://react.dev/)
+- [Vite](https://vitejs.dev/)
+- CSS puro com variáveis e responsividade
+- Deploy via [Vercel](https://vercel.com/)
+
+
+
+📁 Estrutura de componentes
+
+```
+src/
+├── components/
+│   ├── Header.jsx
+│   ├── MonteCesta.jsx
+│   ├── Produtos.jsx
+│   ├── Carrossel.jsx
+│   ├── CardProduto.jsx
+│   ├── Carrinho.jsx
+│   ├── CarrinhoContext.jsx
+│   ├── MarcaParceira.jsx
+│   ├── WhatsappFloat.jsx
+│   └── Footer.jsx
+├── App.jsx
+├── main.jsx
+└── index.css
+```
+
+
+
+🚀 Como rodar localmente
 
 ```bash
+# Instalar dependências
+npm install
+
+# Rodar em desenvolvimento
+npm run dev
+
+# Build para produção
+npm run build
+```
+
+
+
+ 📲 Contato
+
+Desenvolvido com 💖 para a Sandra — Chinelos & Cestas Personalizadas.
+
 git clone https://github.com/jeferson-santos-devr7/sandra-site.git
